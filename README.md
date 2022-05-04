@@ -1,3 +1,5 @@
 # wordle-solver
 
-This is the source code for an auto wordle solver.
+This is Hanzhou's implementation of an auto wordle solver.
+
+Model's name: MaxEntropy
