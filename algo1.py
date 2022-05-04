@@ -22,7 +22,7 @@ class algo:
         #self.width = np.base_repr(3**5, base=3)
     
     def colorInfo(self):
-        colors = ['green', 'yellow', 'gray']
+        colors = ["green", "yellow", "gray"]
         #length = np.base_repr(3**5, base=3)
         #i = int()
         colorsComb = []

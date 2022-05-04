@@ -1,4 +1,3 @@
-from readline import read_init_file
 import numpy as np
 import random
 
@@ -30,4 +29,7 @@ while i < 20:
     i += 1
 print("g = ", g)
 
-
+with open('readme.txt', 'w') as f:
+    f.write('readme')
+    for i in range(5):
+        f.write('{}\n'.format(i))

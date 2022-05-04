@@ -25,15 +25,15 @@ class tasks:
     def letter_filter(self, idx, letter, color, inlist):
         # remove words from the input list based on the letter's color info
         outlist = []
-        if color == 'green':
+        if color == "green":
             for item in inlist:
                 if item[idx] == letter:
                     outlist.append(item)
-        if color == 'gray':
+        if color == "gray":
             for item in inlist:
                 if letter not in item:
                     outlist.append(item)
-        if color == 'yellow':   # not gray or green
+        if color == "yellow":   # not gray or green
             for item in inlist:
                 if (item[idx] != letter) and (letter in item):
                     outlist.append(item) 

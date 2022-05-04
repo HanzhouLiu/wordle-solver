@@ -6,13 +6,13 @@ guess:      the input guess word
 """
 import random
 
-alphaFile = open("wordle-list/short-list", "r")
-alpha = []
+#alphaFile = open("wordle-list/short-list", "r")
+#alpha = []
 
-for line in alphaFile:
-    # print("word", word)
-    word = line.split("\n") # exclude the "\n" in .txt
-    alpha.append(word[0]) 
+#for line in alphaFile:
+#    # print("word", word)
+#    word = line.split("\n") # exclude the "\n" in .txt
+#    alpha.append(word[0]) 
 
 class wordle:
     def __init__(self, wordlist, seedNum):
